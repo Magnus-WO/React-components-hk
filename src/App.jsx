@@ -4,6 +4,7 @@ import Input from "./components/Input/Input";
 import AccordionItem from "./components/AccordionItem/AccordionItem";
 import Accordion from "./components/Accordion/Accordion";
 import Spinner from "./components/Spinner/Spinner";
+import ErrorMessage from "./components/ErrorMessage/ErrorMessage";
 
 function App() {
   return (
@@ -16,7 +17,11 @@ function App() {
       ></Input> */}
 
       {/* <Accordion></Accordion> */}
-      <Spinner></Spinner>
+      {/* <Spinner></Spinner> */}
+      <ErrorMessage
+        message={"Failed to fetch the data"}
+        errorLogo={"🥲"}
+      ></ErrorMessage>
     </div>
   );
 }
