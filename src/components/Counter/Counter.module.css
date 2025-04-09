@@ -11,8 +11,9 @@
   font-family: BebasNeue-Regular, Arial, sans-serif;
   font-size: var(--large-font-size);
 }
-.increaseButton,
-.decreaseButton {
+
+.counterCard .increaseButton,
+.counterCard .decreaseButton {
   min-width: 80px;
   min-height: 80px;
   border-radius: var(--border-radius-small);
@@ -20,6 +21,7 @@
   background-color: var(--secondary-color);
   transition: 0.3s;
 }
+
 .increaseButton:hover,
 .decreaseButton:hover {
   background-color: var(--hover-color);

@@ -1,0 +1,5 @@
+.button {
+  padding: var(--space-medium);
+  border-radius: var(--border-radius-small);
+  font-size: var(2rem);
+}
