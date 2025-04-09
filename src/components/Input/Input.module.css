@@ -1,0 +1,22 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-small);
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input {
+  min-width: 200px;
+  height: 32px;
+  padding: 0 var(--space-small);
+  border-radius: var(--border-radius-small);
+  border: 2px solid var(--border-color);
+}
+
+.errorMessage {
+  color: var(--error-color);
+}
