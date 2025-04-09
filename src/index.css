@@ -22,6 +22,12 @@ li {
   --border-color: grey;
   --error-color: orangered;
 
+  --spinner-gradient: linear-gradient(
+    90deg,
+    rgba(18, 36, 224, 1) 0%,
+    rgba(98, 8, 69, 1) 100%
+  );
+
   /* Fonts */
   --base-font-size: 1rem;
   --medium-font-size: 1.5rem;

@@ -3,6 +3,7 @@ import Counter from "./components/Counter/Counter";
 import Input from "./components/Input/Input";
 import AccordionItem from "./components/AccordionItem/AccordionItem";
 import Accordion from "./components/Accordion/Accordion";
+import Spinner from "./components/Spinner/Spinner";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         errorMessage="First name is required"
       ></Input> */}
 
-      <Accordion></Accordion>
+      {/* <Accordion></Accordion> */}
+      <Spinner></Spinner>
     </div>
   );
 }
