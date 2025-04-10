@@ -5,6 +5,8 @@ import AccordionItem from "./components/AccordionItem/AccordionItem";
 import Accordion from "./components/Accordion/Accordion";
 import Spinner from "./components/Spinner/Spinner";
 import ErrorMessage from "./components/ErrorMessage/ErrorMessage";
+import WeatherWidget from "./components/WeatherWidget/WeatherWidget";
+import WeatherItem from "./components/WeatherItem/WeatherItem";
 
 function App() {
   return (
@@ -18,10 +20,11 @@ function App() {
 
       {/* <Accordion></Accordion> */}
       {/* <Spinner></Spinner> */}
-      <ErrorMessage
+      {/* <ErrorMessage
         message={"Failed to fetch the data"}
         errorLogo={"🥲"}
-      ></ErrorMessage>
+      ></ErrorMessage> */}
+      <WeatherWidget></WeatherWidget>
     </div>
   );
 }

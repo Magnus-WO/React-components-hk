@@ -22,6 +22,7 @@ const Input = ({
         placeholder={placeHolder}
         value={value}
         onChange={onChange}
+        onKeyDown={onKeyDown}
         className={`${inputStyles.input} ${className}`}
       />
       {errorMessage && (

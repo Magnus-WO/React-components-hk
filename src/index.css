@@ -7,6 +7,8 @@ button {
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
+  border: none;
+  background-color: transparent;
 }
 
 li {
@@ -14,12 +16,31 @@ li {
 }
 
 :root {
+  --primary-color: #4facfe;
+  --secondary-color: #00f2fe;
+  --card-background: linear-gradient(0deg, #002eff 0%, #131313 100%);
+
+  --text-color: #f2f0f0e6;
+  --temp-color: #ff5e62;
+  --description-color: #777;
+  --additional-info-color: #555;
+  --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --font-family: "Arial", sans-serif;
+  --font-size-location: 1.5em;
+  --font-size-temp: 3em;
+  --font-size-description: 1.2em;
+  --font-size-additional-info: 1em;
+  --font-size-mobile-location: 1.2em;
+  --font-size-mobile-temp: 2.5em;
+  --font-size-mobile-description: 1em;
+  --max-width: 600px;
+
   --background-color: linear-gradient(to right, #6a11cb, #2575fc);
-  --primary-Color: #f3f6f9;
+  /* --primary-Color: #f3f6f9;
   --secondary-color: #b399d4;
   --hover-color: #8a68b4;
   --text-color: #333333;
-  --border-color: grey;
+  --border-color: grey; */
   --error-color: orangered;
 
   --spinner-gradient: linear-gradient(
@@ -32,6 +53,7 @@ li {
   --base-font-size: 1rem;
   --medium-font-size: 1.5rem;
   --large-font-size: 2rem;
+  --xlarge-font-size: 3rem;
 
   /* Spacing */
   --space-small: 0.5rem;

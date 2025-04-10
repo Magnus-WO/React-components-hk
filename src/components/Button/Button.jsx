@@ -13,7 +13,7 @@ const Button = ({
       className={`${buttonStyles.button} ${className}`}
       onClick={onClick}
       disabled={disabled}
-      ariaLabel={ariaLabel}
+      aria-label={ariaLabel}
     >
       {children}
     </button>
